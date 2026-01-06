@@ -1,50 +1,70 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
+    font-family: Arial, sans-serif;
+    margin: 1rem 0;
 }
 
 .container {
-  max-width: 1200px;
-  margin: 0 auto;
+    margin: auto 3rem;
+}
+
+h1 {
+    font-size: 1.3rem;
+    font-weight: 500;
 }
 
 .inputs {
-  display: flex;
-  gap: 20px;
+    display: flex;
+    gap: 1rem;
+
+    .input-box {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        min-height: 200px;
+    }
+
+    .input-box label {
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+
+    .input-box textarea {
+        min-height: 0;
+        flex: 1 1 auto;
+        resize: vertical;
+    }
 }
 
-textarea {
-  width: 50%;
-  height: 200px;
-  padding: 10px;
-  font-size: 14px;
-  border: 1px solid #ccc;
-  resize: vertical;
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0.5rem 0;
 }
 
 button {
-  display: block;
-  margin: 20px auto;
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  cursor: pointer;
+    display: block;
+    padding: 0.5rem 1rem;
+    background-color: #00bc7d;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
 
 button:hover {
-  background-color: #0056b3;
+    background-color: #009966;
 }
 
 #diff-output {
-  margin-top: 20px;
+    margin-top: 20px;
 }
 
 /* diff2html styles can be overridden here if needed */
 .d2h-file-header {
-  background-color: #f8f9fa;
+    background-color: #f8f9fa;
 }
 
 .d2h-file-side-diff {
-  border: 1px solid #ddd;
+    border: 1px solid #ddd;
 }

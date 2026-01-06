@@ -15,8 +15,8 @@ document.addEventListener('DOMContentLoaded', () => {
         // Generate unified diff using js-diff
         //const diffStr = Diff.createTwoFilesPatch('Left', 'Right', leftText, rightText);
         const diffStr = Diff.createTwoFilesPatch(
-            'Content',
-            'Content',
+            'Comparison',
+            'Comparison',
             leftText,
             rightText,
             '', // oldHeader (optional)
