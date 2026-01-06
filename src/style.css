@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.inputs {
+  display: flex;
+  gap: 20px;
+}
+
+textarea {
+  width: 50%;
+  height: 200px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  resize: vertical;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#diff-output {
+  margin-top: 20px;
+}
+
+/* diff2html styles can be overridden here if needed */
+.d2h-file-header {
+  background-color: #f8f9fa;
+}
+
+.d2h-file-side-diff {
+  border: 1px solid #ddd;
+}

@@ -1,0 +1,8 @@
+package-lock.json
+pnpm-lock.yaml
+node_modules
+
+dist
+
+// snyk code scan
+.windsurf/rules/snyk_rules.md

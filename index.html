@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Diff Component</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/diff2html/bundles/css/diff2html.min.css" />
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Text Comparison</h1>
+    <div class="inputs">
+      <textarea id="left-text" placeholder="Enter left text..."></textarea>
+      <textarea id="right-text" placeholder="Enter right text..."></textarea>
+    </div>
+    <button id="compare-btn">Compare</button>
+    <div id="diff-output"></div>
+  </div>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/diff2html/bundles/js/diff2html-ui.min.js"></script>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>

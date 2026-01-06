@@ -1,0 +1,26 @@
+{
+  "name": "text-comparison",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.8.0",
+  "dependencies": {
+    "@hotwired/stimulus": "^3.2.2",
+    "diff": "^8.0.2",
+    "diff2html": "^3.4.55",
+    "highlight.js": "^11.11.1"
+  },
+  "devDependencies": {
+    "@types/diff": "^8.0.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.0"
+  }
+}
