@@ -30,6 +30,7 @@ h1 {
     }
 
     .input-box textarea {
+        border-radius: 3px;
         min-height: 0;
         flex: 1 1 auto;
         resize: vertical;
@@ -46,6 +47,7 @@ h1 {
 button {
     display: block;
     padding: 0.5rem 1rem;
+    border-radius: 3px;
     background-color: #00bc7d;
     color: white;
     border: none;
@@ -67,4 +69,11 @@ button:hover {
 
 .d2h-file-side-diff {
     border: 1px solid #ddd;
+}
+
+.d2h-code-line-ctn {
+    box-decoration-break: clone;
+    white-space: pre-wrap;
+    word-break: break-word;
+    overflow-wrap: break-word;
 }
